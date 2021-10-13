@@ -1,0 +1,246 @@
+@media (min-width: 320px) {
+  /* line 3, ../../Documents/hlegals/promo/scss/better.scss */
+  .better-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+    padding-bottom: 30px;
+  }
+  /* line 10, ../../Documents/hlegals/promo/scss/better.scss */
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  /* line 15, ../../Documents/hlegals/promo/scss/better.scss */
+  .link::after, .vector::after, .card-title::before, .bg-img::before, .shoping::before, .bag::before,
+  .crowdfunding::before, .hand::before, .safety::before, .lawyer::before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* line 21, ../../Documents/hlegals/promo/scss/better.scss */
+  .link {
+    position: absolute;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+  /* line 30, ../../Documents/hlegals/promo/scss/better.scss */
+  .link::after {
+    position: absolute;
+    top: 2.5px;
+    left: 84.5px;
+    width: 12px;
+    height: 12px;
+  }
+  /* line 37, ../../Documents/hlegals/promo/scss/better.scss */
+  .vector::after {
+    background-image: url(../images/pointer.svg);
+    width: 4.5px;
+    height: 9px;
+  }
+  /* line 42, ../../Documents/hlegals/promo/scss/better.scss */
+  .section-title {
+    font-size: 32px;
+    padding-top: 20px;
+    background: linear-gradient(to right, #F0145A 0%, #EF8080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* line 50, ../../Documents/hlegals/promo/scss/better.scss */
+  .cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+  /* line 58, ../../Documents/hlegals/promo/scss/better.scss */
+  .card {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* line 65, ../../Documents/hlegals/promo/scss/better.scss */
+  .card:last-child {
+    margin-bottom: 20px;
+  }
+  /* line 68, ../../Documents/hlegals/promo/scss/better.scss */
+  .card-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    color: #24A3FF;
+    margin-bottom: 10px;
+  }
+  /* line 78, ../../Documents/hlegals/promo/scss/better.scss */
+  .card-title::before {
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  /* line 86, ../../Documents/hlegals/promo/scss/better.scss */
+  .bg-img::before {
+    min-width: 64px;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+  }
+  /* line 92, ../../Documents/hlegals/promo/scss/better.scss */
+  .shoping::before {
+    background-image: url(../images/shopping.svg);
+  }
+  /* line 95, ../../Documents/hlegals/promo/scss/better.scss */
+  .bag::before {
+    background-image: url(../images/bag.svg);
+  }
+  /* line 98, ../../Documents/hlegals/promo/scss/better.scss */
+  .crowdfunding::before {
+    background-image: url(../images/crowdfunding.svg);
+  }
+  /* line 101, ../../Documents/hlegals/promo/scss/better.scss */
+  .hand::before {
+    background-image: url(../images/collaborative_hand.svg);
+  }
+  /* line 104, ../../Documents/hlegals/promo/scss/better.scss */
+  .safety::before {
+    background-image: url(../images/safety.svg);
+  }
+  /* line 107, ../../Documents/hlegals/promo/scss/better.scss */
+  .lawyer::before {
+    background-image: url(../images/lawyer.svg);
+  }
+  /* line 110, ../../Documents/hlegals/promo/scss/better.scss */
+  .card-text {
+    font-family: TT Norms;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 117, ../../Documents/hlegals/promo/scss/better.scss */
+  .better-content {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 60px 0px 60px;
+    padding-bottom: 90px;
+  }
+  /* line 123, ../../Documents/hlegals/promo/scss/better.scss */
+  .heading {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 127, ../../Documents/hlegals/promo/scss/better.scss */
+  .section-title {
+    width: 768px;
+    font-size: 42px;
+  }
+  /* line 131, ../../Documents/hlegals/promo/scss/better.scss */
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 68px;
+  }
+  /* line 138, ../../Documents/hlegals/promo/scss/better.scss */
+  .card {
+    width: 33.33%;
+    margin-bottom: 58px;
+    padding-right: 40px;
+  }
+  /* line 143, ../../Documents/hlegals/promo/scss/better.scss */
+  .card:nth-child(4), .card:nth-child(5), .card:nth-child(6) {
+    margin-bottom: 0;
+  }
+  /* line 146, ../../Documents/hlegals/promo/scss/better.scss */
+  .card:nth-child(3n) {
+    padding-right: 0;
+  }
+  /* line 149, ../../Documents/hlegals/promo/scss/better.scss */
+  .card-title {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 156, ../../Documents/hlegals/promo/scss/better.scss */
+  .card-title::before {
+    width: 64px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  /* line 164, ../../Documents/hlegals/promo/scss/better.scss */
+  .bg-img::before {
+    width: 92px;
+    height: 92px;
+  }
+  /* line 168, ../../Documents/hlegals/promo/scss/better.scss */
+  .link::after, .vector::after, .card-title::before, .bg-img::before, .shoping::before, .bag::before,
+  .crowdfunding::before, .hand::before, .safety::before, .lawyer::before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* line 174, ../../Documents/hlegals/promo/scss/better.scss */
+  .shoping::before {
+    background-image: url(../images/shopping.svg);
+  }
+  /* line 177, ../../Documents/hlegals/promo/scss/better.scss */
+  .bag::before {
+    background-image: url(../images/bag.svg);
+  }
+  /* line 180, ../../Documents/hlegals/promo/scss/better.scss */
+  .crowdfunding::before {
+    background-image: url(../images/crowdfunding.svg);
+  }
+  /* line 183, ../../Documents/hlegals/promo/scss/better.scss */
+  .hand::before {
+    background-image: url(../images/collaborative_hand.svg);
+  }
+  /* line 186, ../../Documents/hlegals/promo/scss/better.scss */
+  .safety::before {
+    background-image: url(../images/safety.svg);
+  }
+  /* line 189, ../../Documents/hlegals/promo/scss/better.scss */
+  .lawyer::before {
+    background-image: url(../images/lawyer.svg);
+  }
+  /* line 192, ../../Documents/hlegals/promo/scss/better.scss */
+  .card-text {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  /* line 197, ../../Documents/hlegals/promo/scss/better.scss */
+  .tt-bold {
+    font-family: "TT Norms Bold";
+  }
+}
+
+@font-face {
+  font-family: "TT Norms";
+  src: url(../fonts/TTNorms/TTNorms-Regular.otf);
+}
+
+@font-face {
+  font-family: "TT Norms Bold";
+  src: url(../fonts/TTNorms/TTNorms-Bold.otf);
+}
+
+/*# sourceMappingURL=better.css.map */

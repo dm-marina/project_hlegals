@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+    <link rel="stylesheet" href="../team/styles/normalize.css">
+    <link rel="stylesheet" href="../team/styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="team">
+            <header class="header">
+                    <div class="header-content">
+                        <div class="inform">
+                            <div class="lang point">
+                                <a href="../team/index.html" class="ua active">ук</a>
+                                <a href="" class="ru">ру</a>
+                                <a href="" class="en">en</a>
+                            </div>
+                            <address class="address point">Одеса, Адміральський пр.,3</address>
+                            <a href="tel:+38(050)3901591" class="tel point">+38 (050) 390 15 91</a>
+                            <a href="" class="facebook"></a>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a href="../promo/index.html">
+                            <img src="./images/logo-team.svg" height="31px" width="207px" alt="team" class="logo-img">
+                        </a>
+                        <button class="burger" id="menu-open"></button>
+                    </div>
+                    <div class="menu">
+                        <a href="../about/index.html" class="links">про нас</a>
+                        <a href="../services/index.html" class="links">послуги</a>
+                        <a href="../team-member/index.html" class="links menu-active">команда</a>
+                        <a href="../publications/index.html" class="links">публікації</a>
+                        <a href="../contacts/index.html" class="links">контакти</a>
+                    </div>
+                    <div class=" mobile-menu" id="menu">
+                        <div class="logo-mini">
+                            <a href="../promo/index.html"><img src="./images/logo-mini.svg" alt="logo" width="32px" height="31px"></a>
+                        </div>
+                        <button class="burger-close" id="menu-close"></button>
+                        <div class="link-container">
+                            <div class="container">
+                                <a href="../about/index.html" class="links">про нас</a>
+                            </div>
+                            <div class="container">
+                                <a href="../services/index.html" class="links">послуги</a>
+                            </div>
+                            <div class="container">
+                                <a href="../team-member/index.html" class="links">команда</a>
+                            </div>
+                            <div class="container">
+                                <a href="../publications/index.html" class="links">публікації</a>
+                            </div>
+                            <div class="container">
+                                <a href="../contacts/index.html" class="links">контакти</a>
+                            </div>
+                        </div>
+                    </div>
+            </header>
+            <div class="team-wrap">
+                <h2 class="title">
+                    Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.
+                </h2>
+                <div class="cards">
+                    <div class="members">
+                        <div class="card-member mayboroda">
+                            <div class="member-container">
+                                <div class="member-inform">
+                                    <p class="name">Денис Майборода</p>
+                                    <p class="position">Керуючий партнер</p>
+                                </div>
+                                <button class="slider-btn blue-vector" ></button>
+                            </div>
+                        </div>
+                        <div class="card-member oleksandrovsky">
+                            <div class="member-container">
+                                <div class="member-inform">
+                                    <p class="name">Олександр Олександровський</p>
+                                    <p class="position">Equity partner, Attorney-at-law</p>
+                                </div>
+                                <button class="slider-btn blue-vector"></button>
+                            </div>
+                        </div>
+                        <div class="card-member melnyk">
+                            <div class="member-container">
+                                <div class="member-inform">
+                                    <p class="name">Владислав Мельник</p>
+                                    <p class="position">Associate</p>
+                                </div>
+                                <button class="slider-btn blue-vector"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="members">
+                        <div class="card-member hudymenko">
+                            <div class="member-container">
+                                <div class="member-inform">
+                                    <p class="name">Юлія Гудименко</p>
+                                    <p class="position">Associate, Attorney-at-law</p>
+                                </div>
+                                <button class="slider-btn blue-vector"></button>
+                            </div>
+                        </div>
+                        <div class="card-member kobzar">
+                            <div class="member-container">
+                                <div class="member-inform">
+                                    <p class="name">Оксана Кобзар</p>
+                                    <p class="position">Equity partner, Attorney-at-law</p>
+                                </div>
+                                <button class="slider-btn blue-vector"></button>
+                            </div>
+                        </div>
+                        <div class="card-member vmelnyk">
+                            <div class="member-container">
+                                <div class="member-inform">
+                                    <p class="name">Владислав Мельник</p>
+                                    <p class="position">Associate</p>
+                                </div>
+                                <button class="slider-btn blue-vector"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- js -->
+        <script>
+            const openButton=document.querySelector('#menu-open');
+            const closeButton=document.querySelector('#menu-close');
+    
+            const menu=document.querySelector('#menu');
+            openButton.addEventListener('click', ()=>{
+            menu.classList.add('show-menu');
+            document.getElementById('flag').hidden=true;
+            })
+            closeButton.addEventListener('click', ()=>{
+                menu.classList.remove('show-menu');
+                document.getElementById('img').hidden=false;
+            })
+        </script>
+        <!-- end js -->
+        <footer class="footer">
+            <div class="footer-content" id="footer">
+                <div class="footer-contacts">
+                    <div class="address-container">
+                        <address class="address-footer point-gray">Одеса, Адміральський пр., 3</address>
+                        <a href="" class="address-link">Подивитися на мапі</a>
+                    </div>
+                    <div class="footer-inform">
+                        <a href="" class="footer-facebook point-gray"></a>
+                        <a href="tel:+38(050)3901591" class="tel-footer point-gray">+38 (050) 390 15 91</a>
+                        <a href="mailto:contact@hlegals.net" class="mail">contact@hlegals.net</a>
+                    </div>
+                </div>
+                <div class="hlegals-about">
+                    <p class="hlegals-about-text">
+                        © 2021 ТОВ Юридична компанія «HLEGALS»
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

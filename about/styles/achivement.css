@@ -1,0 +1,119 @@
+@media (min-width: 320px) {
+  /* line 2, ../../Documents/hlegals/about/scss/achivement.scss */
+  .bg {
+    background: #F5F5FA;
+    border-radius: 12px 12px 0px 0px;
+  }
+  /* line 6, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 10, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 16, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-title {
+    margin: 28px 0px 30px 0px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323264;
+  }
+  /* line 23, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  /* line 31, ../../Documents/hlegals/about/scss/achivement.scss */
+  .images {
+    width: 157px;
+    height: 57px;
+    margin-right: 20px;
+  }
+  /* line 36, ../../Documents/hlegals/about/scss/achivement.scss */
+  .images:nth-child(2) {
+    margin-right: 0;
+  }
+  /* line 39, ../../Documents/hlegals/about/scss/achivement.scss */
+  .images:nth-child(3), .images:nth-child(4) {
+    display: none;
+  }
+  /* line 42, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-sliders {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  /* line 47, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-slider {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 14px;
+    background-color: transparent;
+    border: none;
+    background: rgba(36, 163, 255, 0.2);
+  }
+  /* line 56, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-slider:hover {
+    background: rgba(36, 163, 255, 0.6);
+  }
+  /* line 59, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-slider-active {
+    background: #24a3ff;
+  }
+  /* line 62, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-slider:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 67, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-wrap {
+    align-items: stretch;
+  }
+  /* line 70, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-cards {
+    width: 100%;
+  }
+  /* line 74, ../../Documents/hlegals/about/scss/achivement.scss */
+  .images {
+    margin-right: 40px;
+    width: 224px;
+    height: 109px;
+  }
+  /* line 79, ../../Documents/hlegals/about/scss/achivement.scss */
+  .images:nth-child(2) {
+    margin-right: 40px;
+  }
+  /* line 82, ../../Documents/hlegals/about/scss/achivement.scss */
+  .images:nth-child(1) {
+    margin-left: 60px;
+  }
+  /* line 85, ../../Documents/hlegals/about/scss/achivement.scss */
+  .images:nth-child(4) {
+    margin-right: 60px;
+  }
+  /* line 88, ../../Documents/hlegals/about/scss/achivement.scss */
+  .images:nth-child(3), .images:nth-child(4) {
+    display: block;
+  }
+  /* line 91, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-slider:nth-child(4), .achivement-slider:nth-child(5), .achivement-slider:nth-child(6) {
+    display: none;
+  }
+  /* line 94, ../../Documents/hlegals/about/scss/achivement.scss */
+  .achivement-sliders {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=achivement.css.map */

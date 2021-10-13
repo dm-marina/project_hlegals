@@ -1,0 +1,35 @@
+@media (min-width: 320px) {
+  /* line 2, ../../Documents/hlegals/promo/scss/partners.scss */
+  .partners {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* line 7, ../../Documents/hlegals/promo/scss/partners.scss */
+  .trust-partners {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #323264;
+    margin-bottom: 30px;
+  }
+  /* line 15, ../../Documents/hlegals/promo/scss/partners.scss */
+  .firms {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* line 19, ../../Documents/hlegals/promo/scss/partners.scss */
+  .firm {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 24, ../../Documents/hlegals/promo/scss/partners.scss */
+  .firm {
+    width: 25%;
+  }
+}
+
+/*# sourceMappingURL=partners.css.map */

@@ -1,0 +1,195 @@
+@media (min-width: 320px) {
+  /* line 2, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer {
+    background: #F5F5FA;
+    border-radius: 12px 12px 0px 0px;
+    width: 100%;
+  }
+  /* line 7, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 23px;
+    padding-bottom: 118px;
+    position: relative;
+  }
+  /* line 17, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 26, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  /* line 32, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-footer, .tel-footer {
+    font-size: 16px;
+    font-style: normal;
+    color: #323264;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* line 39, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-footer {
+    margin-bottom: 10px;
+  }
+  /* line 42, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-link {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #24A3FF;
+    text-decoration: none;
+    text-align: center;
+  }
+  /* line 50, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-link:hover, .mail:hover {
+    color: #F0145A;
+  }
+  /* line 54, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-inform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  /* line 60, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-facebook {
+    background-image: url(../images/facebook-blue.svg);
+    width: 38px;
+    height: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    position: relative;
+    left: 48%;
+  }
+  /* line 70, ../../Documents/hlegals/team/scss/footer.scss */
+  .tel-footer {
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 75, ../../Documents/hlegals/team/scss/footer.scss */
+  .mail {
+    text-decoration: none;
+    font-size: 16px;
+    color: #24A3FF;
+    text-align: center;
+  }
+  /* line 81, ../../Documents/hlegals/team/scss/footer.scss */
+  .hlegals-about {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+  }
+  /* line 86, ../../Documents/hlegals/team/scss/footer.scss */
+  .hlegals-about-text {
+    font-size: 16px;
+    color: #B3B3BA;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 103, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer {
+    position: relative;
+  }
+  /* line 107, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-contacts {
+    margin: 0px 0px 0px 100px;
+    justify-content: flex-start;
+  }
+  /* line 111, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  /* line 123, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-container {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  /* line 128, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-footer {
+    text-align: start;
+    margin-right: 47px;
+  }
+  /* line 132, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-link {
+    vertical-align: bottom;
+    margin-top: 2px;
+  }
+  /* line 136, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-inform {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+  /* line 140, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-facebook {
+    position: relative;
+    margin-right: 12px;
+    left: -12px;
+    bottom: 10px;
+    margin-bottom: 0;
+  }
+  /* line 147, ../../Documents/hlegals/team/scss/footer.scss */
+  .tel-footer {
+    margin-right: 26px;
+    margin-bottom: 0;
+  }
+  /* line 151, ../../Documents/hlegals/team/scss/footer.scss */
+  .mail {
+    margin-bottom: 0;
+  }
+  /* line 154, ../../Documents/hlegals/team/scss/footer.scss */
+  .point-gray::after {
+    content: "";
+    background-image: url(../images/point-gray.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6px;
+    height: 6px;
+    padding-right: 10px;
+  }
+  /* line 163, ../../Documents/hlegals/team/scss/footer.scss */
+  .address-footer::after {
+    content: "";
+    position: relative;
+    left: 33px;
+  }
+  /* line 168, ../../Documents/hlegals/team/scss/footer.scss */
+  .footer-facebook::after {
+    content: "";
+    position: relative;
+    left: 48px;
+    top: 10px;
+  }
+  /* line 174, ../../Documents/hlegals/team/scss/footer.scss */
+  .tel-footer::after {
+    content: "";
+    position: relative;
+    left: 15px;
+  }
+  /* line 180, ../../Documents/hlegals/team/scss/footer.scss */
+  .hlegals-about {
+    margin: 20px 60px 0px 0px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

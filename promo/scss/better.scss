@@ -1,0 +1,208 @@
+
+@media(min-width:320px){
+    .better-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px 20px 0px 20px;
+        padding-bottom: 30px;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .link::after, .vector::after, .card-title::before, .bg-img::before, .shoping::before, .bag::before,
+    .crowdfunding::before, .hand::before, .safety::before, .lawyer::before{
+        content: "";
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .link{
+        position: absolute;
+        text-decoration: none;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    .link::after{
+        position: absolute;
+        top: 2.5px;
+        left: 84.5px;
+        width: 12px;
+        height: 12px;
+    }
+    .vector::after{
+        background-image: url(../images/pointer.svg);
+        width: 4.5px;
+        height: 9px; 
+    }
+    .section-title{
+        // width: 335px;
+        font-size: 32px;
+        padding-top: 20px;
+        background: linear-gradient(to right, #F0145A 0%, #EF8080 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card:last-child{
+        margin-bottom: 20px;
+    }
+    .card-title{
+        // width: 260px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 18px;
+        color: #24A3FF;
+        margin-bottom: 10px;
+        
+    }
+    .card-title::before{
+        width: 44px;
+        height: 44px;
+        background: #FFFFFF;
+        border-radius: 18px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .bg-img::before{
+        min-width: 64px;
+        width: 64px;
+        height: 64px;
+        margin-right: 10px;
+    }
+    .shoping::before{
+        background-image: url(../images/shopping.svg);
+    }
+    .bag::before{
+        background-image: url(../images/bag.svg);
+    }
+    .crowdfunding::before{
+        background-image: url(../images/crowdfunding.svg);
+    }
+    .hand::before{
+        background-image: url(../images/collaborative_hand.svg);
+    }
+    .safety::before{
+        background-image: url(../images/safety.svg);
+    }
+    .lawyer::before{
+        background-image: url(../images/lawyer.svg);
+    }
+    .card-text{
+        font-family: TT Norms;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
+@media(min-width:1024px){
+    .better-content{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 60px 0px 60px;
+        padding-bottom: 90px;
+    }
+    .heading{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .section-title{
+        width: 768px;
+        font-size: 42px;
+    }
+    .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 68px;
+        // margin-bottom: 80px;
+    }
+    .card{
+        width: 33.33%;
+        margin-bottom: 58px;
+        padding-right: 40px;
+    }
+    .card:nth-child(4), .card:nth-child(5), .card:nth-child(6){
+        margin-bottom: 0;
+    }
+    .card:nth-child(3n){
+        padding-right: 0 ;
+    }
+    .card-title{
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .card-title::before{
+        width: 64px;
+        height: 64px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .bg-img::before{
+        width: 92px;
+        height: 92px;
+    }
+    .link::after, .vector::after, .card-title::before, .bg-img::before, .shoping::before, .bag::before,
+    .crowdfunding::before, .hand::before, .safety::before, .lawyer::before{
+        content: "";
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .shoping::before{
+        background-image: url(../images/shopping.svg);
+    }
+    .bag::before{
+        background-image: url(../images/bag.svg);
+    }
+    .crowdfunding::before{
+        background-image: url(../images/crowdfunding.svg);
+    }
+    .hand::before{
+        background-image: url(../images/collaborative_hand.svg);
+    }
+    .safety::before{
+        background-image: url(../images/safety.svg);
+    }
+    .lawyer::before{
+        background-image: url(../images/lawyer.svg);
+    }
+    .card-text{
+        margin-top: 15px;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    .tt-bold{
+        font-family: "TT Norms Bold";
+    }
+}
+@font-face {
+    font-family: "TT Norms";
+    src: url(../fonts/TTNorms/TTNorms-Regular.otf);
+}
+@font-face {
+    font-family: "TT Norms Bold";
+    src: url(../fonts/TTNorms/TTNorms-Bold.otf);
+}

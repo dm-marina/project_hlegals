@@ -1,0 +1,130 @@
+// .bg{
+//     background-image: url(../images/bg.svg);
+//     background-size: cover; 
+//     border-radius: 0px 0px 12px 12px;   
+// }
+@media(min-width:320px){}
+@media(min-width:1024px){
+    .better{
+        width: 1320px;
+        padding-left: 60px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .link{
+        position: absolute;
+        text-decoration: none;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+    .link::after{
+        content: "";
+        position: absolute;
+        top: 2.5px;
+        left: 84.5px;
+        width: 12px;
+        height: 12px;
+    }
+    .vector::after{
+        content: "";
+        // background-image: url(../images/pointer.svg);
+        background-image: url(../images/pointer.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 4.5px;
+        height: 9px; 
+    }
+    .section-title{
+        font-size: 42px;
+        padding-top: 20px;
+        background: linear-gradient(to right, #F0145A 0%, #EF8080 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .cards{
+        width: 1320px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 68px;
+    }
+    .card{
+        width: 33.33%;
+        margin-bottom: 58px;
+        padding-right: 40px;
+    }
+    .card:nth-child(3n){
+        padding-right: 0 ;
+    }
+    .card-title{
+        font-family: TT Norms;
+        font-size: 24px;
+        color: #24A3FF;
+    }
+    .card-title::before{
+        content:"";
+        width: 92px;
+        height: 92px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+    .bg-img::before{
+        content: "";
+        width: 64px;
+        height: 64px;
+    }
+    .shoping::before{
+        content: "";
+        // background-image: url(../images/shopping.svg);
+        background-image: url(../images/shopping.svg);
+    }
+    .bag::before{
+        content: "";
+        // background-image: url(../images/bag.svg);
+        background-image: url(../images/bag.svg);
+    }
+    .crowdfunding::before{
+        content: "";
+        // background-image: url(../images/crowdfunding.svg);
+        background-image: url(../images/crowdfunding.svg);
+    }
+    .hand::before{
+        content: "";
+        // background-image: url(../images/collaborative_hand.svg);
+        background-image: url(../images/collaborative_hand.svg);
+    }
+    .safety::before{
+        content: "";
+        // background-image: url(../images/safety.svg);
+        background-image: url(../images/safety.svg);
+    }
+    .lawyer::before{
+        content: "";
+        // background-image: url(../images/lawyer.svg);
+        background-image: url(../images/lawyer.svg);
+    }
+    .card-text{
+        margin-top: 15px;
+        font-family: TT Norms;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    .tt-bold{
+        font-family: "TT Norms Bold";
+    }
+}
+@font-face {
+    font-family: "TT Norms";
+    src: url(../fonts/TTNorms/TTNorms-Regular.otf);
+}
+@font-face {
+    font-family: "TT Norms Bold";
+    src: url(../fonts/TTNorms/TTNorms-Bold.otf);
+}

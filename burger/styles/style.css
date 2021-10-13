@@ -1,0 +1,25 @@
+/* line 1, ../../Documents/hlegals/burger/scss/style.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../Documents/hlegals/burger/scss/style.scss */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 14, ../../Documents/hlegals/burger/scss/style.scss */
+.burger-close {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */

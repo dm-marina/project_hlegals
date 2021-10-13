@@ -1,0 +1,464 @@
+@import "burger.scss";
+@import "footer.scss";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #000000;
+    font-family: "TT-Norms";
+}
+@media(min-width:320px){
+    .wrapper{
+        min-width: 320px;
+        padding-top: 20px;
+        margin: 0px 20px 40px 20px;
+    }
+    .team-members{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+     .header{
+        margin-bottom: 20px;
+    }
+    .header-content{
+        .inform{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+    }
+    .tel{
+        position:absolute;
+        // right: 0;
+        font-size: 16px;
+        font-weight: bold;
+        right: 20px;
+    }
+    .menu{display: none;}
+    .address{
+        display: none;
+    }
+    .ua,.ru, .en, .tel{
+        color: #B3B3BA;
+        text-decoration: none;
+    }
+    .ua, .ru, .en{
+        padding: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .active, .ua:hover, .ru:hover, .en:hover {
+        width: 29px;
+        height: 24px;
+        border-radius: 8px;
+        background: #F0145A; 
+        color: #ffffff;
+    }
+    .active{
+        background: #F0145A; 
+        color: #fff;
+    }
+    .ua:hover, .ru:hover, .en:hover
+    {
+        background: #EDEDF7;
+        color: #B3B3BA;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        .logo-img{
+            height: 31px;
+            width: 208px;
+        }
+        .burger{
+            background-image: url(../images/burger-black.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            width: 32px;
+            height: 32px;
+        }
+        .burger:hover{
+            border-radius: 12px;
+            background: #EDEDF7;
+        }
+    }
+    .member-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // margin: 20px;
+    }
+    .member-inform{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .member-inform::before{
+        content: "";
+        width: 335px;
+        height: 406px;
+        display: block;
+    }
+    .about-member::before{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        background:  #E6E6F0;
+    }
+    .kac{
+        display: block;
+        width: 335px;
+        height: 406px;
+        border-radius: 12px;
+        background-image: url(../images/oleksandrkac.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .member-contacts{
+        // margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // margin-bottom: 20px;
+    }
+    .name{
+        margin-top: 20px;
+        font-family: "  TT-Norms-Bold";
+        // font-weight: bold;
+        font-size: 32px;
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .position{
+        margin-top: 14px;
+        font-size: 16px;
+        color: #B3B3BA;
+    }
+    .member-mail, .account-link{
+        margin-top: 11px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #24A3FF;
+    }
+    .about-member{
+        margin-top: 193px;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // align-self: center;
+        // align-content: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+    }
+    .biography{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .biography-text, .education-text, .experience-text{
+        font-size: 18px;
+    }
+    .education{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .education-title, .experience-title{
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #323264;
+        margin-bottom: 10px;
+        font-family:"TT-Norms-Bold" ;
+    }
+    .experience{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+
+
+@media(min-width:768px){
+    .header{
+        margin-bottom: 80px;
+    }
+    .member-content{
+        flex-direction: row;
+        align-items: stretch;
+    }
+    .member-inform{
+        display: flex;
+        flex-direction: row;
+    }
+    .information{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        // margin-left: 370px;
+        left: 341px;
+        bottom: 140px;
+        width: 100%;
+    }
+    .name{
+        margin-top: 0;
+        min-width: 300px;
+    }
+    .member-contacts{
+        flex-direction: row;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .position{
+        margin-top: 0;
+        // margin-right: 26px;
+        min-width: 150px;
+        position: relative;
+        right: 75px;
+    }
+    .position::after{
+        display: none;
+    }
+    .member-mail{
+        // margin-right: 26px;
+        min-width: 120px;
+        margin-top: 0;
+    }
+    .contacts{
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    .member-mail::after{
+        content: "";
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+    }
+    .point-member::after{
+        content: "";
+        background-image: url(../images/point.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 6px;
+        height: 6px;
+        margin-left: 10px;
+        margin-right: 16px;
+    }
+    .account-link{
+        min-width: 145px;
+        margin-top: 0;
+    }
+    .about-member{
+        margin-top: 134px;
+        margin-left: 40px;
+    }
+}
+    
+@media(min-width:1024px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .team-members{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+        .logo-img{
+            height: 63px;
+            width: 413px;
+        }
+        .burger{
+            display: none;
+        }
+    }
+    .header{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        position: relative;
+        // margin: 0px 60px 80px 60px;
+        padding-top: 50px;
+        margin-bottom: 80px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: row-reverse;
+        order:2;
+        position: relative;
+        min-width: 550px;
+    }
+    .inform{
+        display: flex;
+        flex-direction: row;
+    }
+    .facebook{
+        background-image: url(../images/facebook-grey.svg);
+        width: 24px;
+        height: 24px;
+        position: relative;
+        bottom: 5px;
+    }
+    .lang{
+        margin-right: 20px;
+    }
+    
+    .point::after{
+        content: "";
+        background-image: url(../images/point.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 6px;
+        height: 6px;
+        padding-right: 13px;
+    }
+    .lang::after, .address::after, .tel::after{
+        content: "";
+        position: absolute;
+    }
+    .lang::after{
+        right: 415px;
+        top: 8px;
+    }
+    .address::after{
+        right: 190px;
+        top: 8px;
+    }
+    .tel::after{
+        right: 25px;
+        top: 8px;
+    }
+    .ua,.ru, .en, .tel{
+        color: #B3B3BA;;
+    }
+    .address{
+        display: block;
+        margin-right: 20px;
+        font-size: 16px;
+        font-style: normal;
+        color: #B3B3BA;
+    }
+    .tel{
+        position: static;
+        margin-right: 26px;
+    }
+    .links{
+        font-size: 18px;
+        margin-right: 15px;
+        // font-weight: lighter;
+        color: #24A3FF;
+    }
+    .links:last-child{
+        margin-right: 0;
+    }
+    .menu{
+        display: flex;
+        flex-wrap: nowrap;
+        position: absolute;
+        top: 94px;
+        // left: 600px;
+        right: 0;
+        order: 2;
+    }
+    .menu-active{
+        text-decoration: underline;
+        color: #F0145A;
+    }
+    .links:hover{
+        color: #F0145A;
+    }
+    .active{
+        background: #F0145A; 
+        color: #fff;
+    }
+    .member-content{
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 80px;
+    }
+    .name{
+        font-size: 42px;
+    }
+    .member-contacts{
+        flex-wrap: nowrap;
+        position: relative;
+        left: 80px;
+    }
+    .position{
+        right: 0;
+        margin-right: 26px;
+    }
+    .position::after{
+        display: flex;
+        position: absolute;
+        bottom: 5px;
+        left: 140px;
+    }
+    .point-member::after{
+        position: absolute;
+        // top: 20px;
+    }
+    .contacts{
+        margin-top: 0;
+        flex-direction: row;
+    }
+    .information{
+        left: 361px;
+    }
+    .point::after{
+        display: inline-block;
+    }
+    .member-mail, .account-link{
+        margin-top: 0;
+    }
+    .member-mail{
+        margin-right: 26px;
+    }
+    .member-mail::after{
+        display: flex;
+        position: absolute;
+        bottom: 5px;
+        right: 140px;
+    }
+}
+@font-face {
+    font-family: "TT-Norms";
+    src: url(../fonts/TTNorms/TTNorms-Regular.otf);
+}
+
+@font-face {
+    font-family: "TT-Norms-Bold";
+    src: url(../fonts/TTNorms/TTNorms-Bold.otf);
+}

@@ -1,0 +1,381 @@
+@import "burger.scss";
+@import "cases.scss";
+@import "publication.scss";
+@import "footer.scss";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+    font-family: "TT-Norms";
+}
+@media(min-width:320px){
+    .it{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(../images/bg-servisesit.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+     .header{
+        margin-bottom: 20px;
+    }
+    .header-content{
+        .inform{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+    }
+    .tel{
+        position: absolute;
+        top:22px;
+        right: 20px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .menu{display: none;}
+    .address{
+        display: none;
+    }
+    .ua,.ru, .en, .tel{
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .ua, .ru, .en{
+        padding: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .active, .ua:hover, .ru:hover, .en:hover {
+        width: 29px;
+        height: 24px;
+        border-radius: 8px;
+        background: #F0145A; 
+        color: #ffffff;
+    }
+    .active{
+        background: #F0145A; 
+    }
+    .ua:hover, .ru:hover, .en:hover
+    {
+        background: #EDEDF7;
+        color: #B3B3BA;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        .logo-img{
+            height: 31px;
+            width: 208px;
+        }
+        .burger{
+            background-image: url(../images/mobile-menu.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            width: 32px;
+            height: 32px;
+        }
+        .burger:hover{
+            border-radius: 12px;
+            background: #EDEDF7;
+        }
+    }
+    .it-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+        margin: 0px 20px 43px 20px;
+    }
+    .electronic-it{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .it-content{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .it-title{
+        background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 32px;
+        // font-weight: bold;
+        font-family: "TT-Norms-Bold";
+        margin-bottom: 20px;
+    }
+    .it-title::before{
+        content: "";
+        display: block;
+        width: 64px;
+        height: 64px;
+        background: #FFFFFF;
+        border-radius: 24px;
+        margin-bottom: 20px;
+    }
+    .bag::before{
+        content: "";
+        width: 92px;
+        height: 92px;
+        min-width: 64px;
+        background-image: url(../images/shopping.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .it-text{
+        font-size:21px;
+        margin-bottom: 40px;
+        // text-align: center;
+    }
+    .consultation{
+        width: 250px;
+        height: 50px;
+        position: relative;
+        background: #24A3FF;
+        box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+        border-radius: 12px;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        border: none;
+        // margin-bottom: 40px;
+    }
+    .btn-center{
+        display: flex;
+        justify-content: center;
+    }
+    .it-services{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .services-title{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .services-title::before{
+        content: "";
+        margin-bottom: 20px;
+        display: block;
+        width: 100%;
+        height: 4px;
+        background: #E6E6F0;
+    }
+    .services-list-container{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        margin-left: 25px;
+       align-items:stretch;
+    }
+    .services-list{
+        position: relative;
+    }
+    .list{
+        list-style-type: none;
+        font-size: 18px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    .list:last-child{
+        margin-bottom: 0;
+    }
+    .list::before{
+        content: "";
+        position: absolute;
+        left: -13px;
+        top: 13px;
+    }
+    .list-point::before{
+        content: "";
+        background-image: url(../images/point-red.svg);
+        width: 6px;
+        height: 6px;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        // top: 5px;
+    }
+}
+@media(min-width:1024px){
+    .it-wrapper{
+        min-width: 1024px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .it{
+        align-items: center;
+        // width: 100%;
+    }
+    .logo{
+        .logo-img{
+            height: 63px;
+            width: 413px;
+        }
+        .burger{
+            display: none;
+        }
+    }
+    .header{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        position: relative;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: row-reverse;
+        order:2;
+        position: relative;
+        min-width: 550px;
+    }
+    .inform{
+        display: flex;
+        flex-direction: row;
+    }
+    .facebook{
+        background-image: url(../images/facebook.svg);
+        width: 24px;
+        height: 24px;
+        position: relative;
+        bottom: 5px;
+    }
+    .lang{
+        margin-right: 20px;
+    }
+    
+    .point::after{
+        content: "";
+        background-image: url(../images/point.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 6px;
+        height: 6px;
+        padding-right: 13px;
+    }
+    .lang::after, .address::after, .tel::after{
+        content: "";
+        position: absolute;
+    }
+    .lang::after{
+        right: 415px;
+        top: 8px;
+    }
+    .address::after{
+        right: 190px;
+        top: 8px;
+    }
+    .tel::after{
+        right: 25px;
+        top: 8px;
+    }
+    .ua,.ru, .en, .tel, .links{
+        color: #ffffff;
+    }
+    .address{
+        display: block;
+        margin-right: 20px;
+        font-size: 16px;
+        font-style: normal;
+    }
+    .tel{
+        position: static;
+        margin-right: 26px;
+    }
+    .links{
+        font-size: 18px;
+        margin-right: 15px;
+        font-weight: lighter;
+    }
+    .links:last-child{
+        margin-right: 0;
+    }
+    .menu{
+        display: flex;
+        flex-wrap: nowrap;
+        position: absolute;
+        top: 94px;
+        // left: 600px;
+        right: 0;
+        order: 2;
+    }
+    .menu-active{
+        text-decoration: underline;
+        // color: #F0145A;
+    }
+    // .links:hover{
+    //     color: #F0145A;
+    // }
+    .heading{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .it-wrapper{
+        width: 100%;
+        align-items: center;
+    }
+    .electronic-it{
+        margin: 50px 0px 80px 0px;
+        align-items: center;
+    }
+    .it-content{
+        align-items: center;
+        text-align: center;
+        margin-bottom: 100px;
+        width: 863px;
+    }
+    .it-text{
+        text-align: center;
+    }
+    // .it-services{
+    //     margin-left: 60px;
+    //     margin-right: 60px;
+
+    // }
+    .bag::before{
+        position: relative;
+        left: 40%;
+    }
+    .services-title{
+        margin-bottom: 20px;
+    }
+    .services-list-container{
+        margin-left: 0;
+        flex-direction: row;
+        max-width: 1050px;
+        min-width: 900px;
+    }
+    .services-list{
+        width: 50%;
+        margin-right: 64px;
+    }
+    .services-list:last-child{
+        margin-right: 0;
+    }
+}
+@font-face {
+    font-family: "TT-Norms";
+    src: url(../fonts/TTNorms/TTNorms-Regular.otf);
+}
+
+@font-face {
+    font-family: "TT-Norms-Bold";
+    src: url(../fonts/TTNorms/TTNorms-Bold.otf);
+}

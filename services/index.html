@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <title>Services</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../services/styles/normalize.css">
+    <link rel="stylesheet" href="../services/styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="better">
+            <div class="better-wrapper">
+                <header class="header">
+                    <div class="header-content">
+                        <div class="inform">
+                            <div class="lang point">
+                                <a href="../services/index.html" class="ua active">ук</a>
+                                <a href="" class="ru">ру</a>
+                                <a href="" class="en">en</a>
+                            </div>
+                            <address class="address point">Одеса, Адміральський пр.,3</address>
+                            <a href="tel:+38(050)3901591" class="tel point">+38 (050) 390 15 91</a>
+                            <a href="" class="facebook"></a>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a href="../promo/index.html">
+                            <img src="./images/logo-services.svg" height="31px" width="208px" alt="Services" class="logo-img">
+                        </a>
+                        <button class="burger" id="menu-open"></button>
+                    </div>
+                    <div class="menu">
+                        <a href="../about/index.html" class="links">про нас</a>
+                        <a href="../services-it/index.html" class="links menu-active">послуги</a>
+                        <a href="../team/index.html" class="links">команда</a>
+                        <a href="../publications/index.html" class="links">публікації</a>
+                        <a href="../contacts/index.html" class="links">контакти</a>
+                    </div>
+                    <div class=" mobile-menu" id="menu">
+                        <div class="logo-mini">
+                            <a href="../promo/index.html"><img src="./images/logo-mini.svg" alt="logo" width="32px" height="31px"></a>
+                        </div>
+                        <button class="burger-close" id="menu-close"></button>
+                        <div class="link-container">
+                            <div class="container">
+                                <a href="../about/index.html" class="links">про нас</a>
+                            </div>
+                            <div class="container">
+                                <a href="../services-it/index.html" class="links">послуги</a>
+                            </div>
+                            <div class="container">
+                                <a href="../team/index.html" class="links">команда</a>
+                            </div>
+                            <div class="container">
+                                <a href="../publications/index.html" class="links">публікації</a>
+                            </div>
+                            <div class="container">
+                                <a href="../contacts/index.html" class="links">контакти</a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- there js code -->
+            <script>
+                const openButton=document.querySelector('#menu-open');
+                const closeButton=document.querySelector('#menu-close');
+        
+                const menu=document.querySelector('#menu');
+                openButton.addEventListener('click', ()=>{
+                menu.classList.add('show-menu');
+                document.getElementById('slider').hidden=true;
+                document.getElementById('gradient').hidden=true;
+                })
+                closeButton.addEventListener('click', ()=>{
+                    menu.classList.remove('show-menu');
+                    document.getElementById('slider').hidden=false;
+                    document.getElementById('gradient').hidden=false;
+                })
+            </script>
+        <!-- end js code -->
+                <div class="better-content">
+                    <div class="heading">
+                        <!-- <a href="" class="link vector">Послуги</a> -->
+                        <h2 class="section-title tt-bold">Що ми вміємо робити краще за інших?</h2>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <h3 class="card-title shoping bg-img">IT та електронна комерція</h3>
+                            <p class="card-text">
+                                Нескінчений потік договорів, податкові питання, трудові відносини, корпоративні папери — юридична робота відволікає вас від ведення бізнесу. Але роботи не так вже й багато, щоб наймати інхауз-юриста. 
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="card-title bag bg-img">Комплексний щоденний юридичний супровід</h3>
+                            <p class="card-text">
+                                До того ж, з часом робота стане однотипною і нецікавою для штатного юриста. А ще ми добре знаємо, як важко в Україні знайти хорошого кандидата з досвідом у сфері інформаційних технологій.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="card-title crowdfunding bg-img">Структуризація корпоративних відносин</h3>
+                            <p class="card-text">
+                                Замість просто надавати юридичні послуги, ми закріпимо юриста або цілу команду, які впишуться в повсякденне життя вашої компанії. 
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="card-title hand bg-img">Побудовa договірних відносин</h3>
+                            <p class="card-text">
+                                Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист. Будь-хто в компанії може впіймати його біля кавоварки і просто поговорити про поточні справи замість очікування статусу update.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="card-title safety bg-img">Захист бізнесу, інтелектуальної власності</h3>
+                            <p class="card-text">
+                                А весь інший час він працюватиме над новими різноплановими проектами, тому вже точно не зупиниться в професійному розвитку. Так чи інакше, на вас працюватиме весь Axon Partners замість корпоративного юриста.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3 class="card-title lawyer bg-img">Судове представництво</h3>
+                            <p class="card-text">Невелика компанія, середнього розміру, чи вже лідер ринку? Локальний бізнес або транснаціональна компанія? Маєте власний юридичний відділ, чи ні?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cases">
+            <div class="flex-container1">
+                <div class="united-card">
+                    <div class="card-label">
+                        <h2 class="cases-label">Успішні кейси</h2>
+                    </div>
+                    <div class="cases-card">
+                        <p class="cases-text text-hillel">
+                            Супровід проекту з купівлі-продажу сільськогосподарської продукції
+                        </p>
+                    </div>
+                </div>
+                <div class="cases-card">
+                    <p class="cases-text  text-wannabiz">
+                        Підготовка комплексного юридичного висновку для європейського банку
+                    </p>
+                </div>
+                <div class="cases-card">
+                    <p class="cases-text  text-tapgerine">
+                        Супровід проекту з купівлі-продажу сільськогосподарської продукції
+                    </p>
+                </div>
+            </div>
+            <div class="flex-container2">
+                <div class="cases-card">
+                    <p class="cases-text  text-3dlook">
+                        Представництво інтересів великого зернотрейдера в податковому спорі
+                    </p>
+                </div>
+                <div class="cases-card">
+                    <p class="cases-text text-adtelligent">
+                        Оскарження податкових повідомлень-рішень ДФС
+                    </p>
+                </div>
+                <div class="cases-card">
+                    <p class="cases-text text-clikky">
+                        Супровід проекту з кредитування агротрейдерів мальтійським банком
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="partners"> 
+            <h2 class="trust-partners">Вже довіряють нам</h2>
+            <div class="firms">
+                    <img src="../promo/images/hillel-logo.svg" class="firm">
+                    <img src="./images/wannabiz-logo.svg" class="firm">
+                    <img src="./images/tapgerine-logo.svg" class="firm">
+                    <img src="./images/3dlook-logo.svg" class="firm">
+                    <img src="./images/orangear-logo.svg" class="firm">
+                    <img src="./images/adtelligent-logo.svg" class="firm">
+                    <img src="./images/clickky-logo.svg" class="firm">
+                    <img src="./images/ecolease-logo.svg" class="firm">
+                    <img src="./images/infratek-logo.svg" class="firm">
+                    <img src="./images/citypark.svg" class="firm">
+                    <img src="./images/artprint-logo.svg" class="firm">
+                    <img src="./images/ultimategard-logo.svg" class="firm">
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-contacts">
+                    <div class="address-container">
+                        <address class="address-footer point-gray">Одеса, Адміральський пр., 3</address>
+                        <a href="" class="address-link">Подивитися на мапі</a>
+                    </div>
+                    <div class="footer-inform">
+                        <a href="" class="footer-facebook point-gray"></a>
+                        <a href="tel:+38(050)3901591" class="tel-footer point-gray">+38 (050) 390 15 91</a>
+                        <a href="mailto:contact@hlegals.net" class="mail">contact@hlegals.net</a>
+                    </div>
+                </div>
+                <div class="hlegals-about">
+                    <p class="hlegals-about-text">
+                        © 2021 ТОВ Юридична компанія «HLEGALS»
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+@media (min-width: 320px) {
+  /* line 3, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 20px 30px 20px;
+  }
+  /* line 9, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1, .flex-container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 15, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .united-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 20, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .card-label {
+    background: #F5F5FA;
+    box-sizing: border-box;
+    border-radius: 12px 0px 0px 0px;
+    margin-bottom: 2px;
+  }
+  /* line 26, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #F0145A;
+    margin: 20px 0px 20px 20px;
+  }
+  /* line 32, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases-card {
+    background: #F5F5FA;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  /* line 38, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container2 .cases-card:last-child {
+    border-radius: 0px 0px 12px 12px;
+    margin-bottom: 0;
+  }
+  /* line 43, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases-text {
+    margin: 20px 20px 57px 20px;
+    font-size: 18px;
+    color: #686887;
+  }
+  /* line 48, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases-text::after {
+    content: "";
+    font-size: 18px;
+    color: #B3B3BA;
+    top: 93px;
+    left: 21px;
+  }
+  /* line 55, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .text-3dlook::after, .text-adtelligent::after, .text-hillel::after, .text-clikky::after,
+  .text-tapgerine::after, .text-wannabiz::after {
+    position: relative;
+    top: 10px;
+    white-space: pre;
+  }
+  /* line 61, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .text-hillel::after {
+    content: "\AHillel IT School";
+    white-space: pre;
+  }
+  /* line 65, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .text-wannabiz::after {
+    content: "\AWannaBiz";
+  }
+  /* line 68, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .text-tapgerine::after {
+    content: "\ATapgerine";
+  }
+  /* line 71, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .text-3dlook::after {
+    content: "\A 3D LOOK";
+  }
+  /* line 74, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .text-adtelligent::after {
+    content: "\A Adtelligent";
+  }
+  /* line 77, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .text-clikky::after {
+    content: "\A Clikky";
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 83, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases {
+    margin: 40px 60px 30px 60px;
+  }
+  /* line 86, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1, .flex-container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  /* line 91, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases-card {
+    margin-right: 2px;
+  }
+  /* line 94, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases-card:last-child {
+    margin-bottom: 2px;
+    margin-right: 0;
+  }
+  /* line 99, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1 .cases-card:nth-child(1) {
+    width: 32%;
+  }
+  /* line 101, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1 .cases-card:nth-child(1) .cases-text {
+    margin: 48px 20px 66px 20px;
+  }
+  /* line 105, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1 .cases-card:nth-child(3) {
+    width: 32%;
+    border-radius: 0px 12px 0px 0px;
+  }
+  /* line 108, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1 .cases-card:nth-child(3) .cases-text {
+    margin: 105px 20px 66px 20px;
+  }
+  /* line 112, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1 .cases-card:nth-child(2) {
+    width: 36%;
+  }
+  /* line 114, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1 .cases-card:nth-child(2) .cases-text {
+    margin: 105px 20px 66px 20px;
+  }
+  /* line 120, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container2 .cases-card:nth-child(3) {
+    width: 42%;
+    border-radius: 0px 0px 12px 0px;
+  }
+  /* line 123, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container2 .cases-card:nth-child(3) .cases-text {
+    margin: 76px 20px 66px 20px;
+  }
+  /* line 127, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container2 .cases-card:nth-child(1) {
+    width: 26%;
+    border-radius: 0px 0px 0px 12px;
+  }
+  /* line 130, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container2 .cases-card:nth-child(1) .cases-text {
+    margin: 20px 20px 66px 20px;
+  }
+  /* line 134, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container2 .cases-card:nth-child(2) {
+    width: 32%;
+  }
+  /* line 136, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container2 .cases-card:nth-child(2) .cases-text {
+    margin: 76px 20px 66px 20px;
+  }
+  /* line 141, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .cases-text {
+    font-size: 24px;
+  }
+  /* line 145, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1 .united-card {
+    width: 32%;
+    margin-right: 2px;
+  }
+  /* line 148, ../../Documents/hlegals/services-it/scss/cases.scss */
+  .flex-container1 .united-card .cases-card {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=cases.css.map */

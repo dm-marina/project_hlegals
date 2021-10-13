@@ -1,0 +1,174 @@
+@media (min-width: 320px) {
+  /* line 2, ../../Documents/hlegals/promo/scss/team.scss */
+  .team {
+    margin-bottom: 30px;
+  }
+  /* line 5, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px 15px 20px;
+    background: #F5F5FA;
+    border-radius: 12px;
+    background-size: cover;
+    position: relative;
+  }
+  /* line 16, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  /* line 22, ../../Documents/hlegals/promo/scss/team.scss */
+  .link-team::after, .team-vector::after {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* line 27, ../../Documents/hlegals/promo/scss/team.scss */
+  .link-team {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #24A3FF;
+    margin-top: 20px;
+    margin-left: 21px;
+  }
+  /* line 36, ../../Documents/hlegals/promo/scss/team.scss */
+  .link-team::after {
+    position: absolute;
+    top: 23px;
+    left: 102px;
+    width: 12px;
+    height: 12px;
+  }
+  /* line 43, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-vector::after {
+    background-image: url(../images/blue-vector.svg);
+    width: 5px;
+    height: 9px;
+  }
+  /* line 48, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-title {
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-family: "TT-Norms-Bold";
+    margin-top: 3px;
+    margin-left: 21px;
+  }
+  /* line 57, ../../Documents/hlegals/promo/scss/team.scss */
+  .member-photo {
+    margin-top: 10px;
+    margin-left: 21px;
+    margin-bottom: 20px;
+    width: 60;
+    height: 60px;
+    border-radius: 120px;
+    object-fit: scale-down;
+    object-position: center;
+  }
+  /* line 67, ../../Documents/hlegals/promo/scss/team.scss */
+  .kac-slide {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  /* line 73, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-inform {
+    margin-top: 15px;
+  }
+  /* line 76, ../../Documents/hlegals/promo/scss/team.scss */
+  .name {
+    font-size: 18px;
+    color: #B3B3BA;
+    margin-bottom: 5px;
+  }
+  /* line 81, ../../Documents/hlegals/promo/scss/team.scss */
+  .profession {
+    font-size: 16px;
+    color: #B3B3BA;
+  }
+  /* line 85, ../../Documents/hlegals/promo/scss/team.scss */
+  .sliders-team {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 89, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-mini-slider {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 14px;
+    background-color: transparent;
+    border: none;
+    background: rgba(36, 163, 255, 0.2);
+  }
+  /* line 98, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-mini-slider:nth-child(3) {
+    margin-right: 0;
+  }
+  /* line 101, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-mini-slider:hover {
+    background: rgba(36, 163, 255, 0.6);
+  }
+  /* line 104, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-mini-slider-active {
+    background: #24a3ff;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 109, ../../Documents/hlegals/promo/scss/team.scss */
+  .team {
+    margin: 0px 60px 0px 60px;
+  }
+  /* line 112, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+  }
+  /* line 119, ../../Documents/hlegals/promo/scss/team.scss */
+  .kac-slide {
+    order: 1;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  /* line 124, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-inform {
+    position: relative;
+    left: 450px;
+    bottom: 240px;
+  }
+  /* line 130, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-heading {
+    margin-top: 40px;
+    order: 2;
+  }
+  /* line 134, ../../Documents/hlegals/promo/scss/team.scss */
+  .member-photo {
+    width: 413px;
+    height: 500px;
+    border-radius: 12px 0px 0px 12px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 143, ../../Documents/hlegals/promo/scss/team.scss */
+  .team-title {
+    margin-bottom: 370px;
+    margin-top: 0px;
+  }
+  /* line 147, ../../Documents/hlegals/promo/scss/team.scss */
+  .sliders-team {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=team.css.map */

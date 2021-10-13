@@ -1,0 +1,28 @@
+@media (min-width: 320px) {
+  .partners {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .trust-partners {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #323264;
+    margin-bottom: 30px;
+  }
+  .firms {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .firm {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .firm {
+    width: 25%;
+  }
+}

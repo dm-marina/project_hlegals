@@ -1,0 +1,481 @@
+@import "burger.scss";
+@import "footer.scss";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #000000;
+    font-family: "TT-Norms";
+}
+@media(min-width:320px){
+    .wrapper{
+        min-width: 320px;
+        padding-top: 20px;
+        // margin: 0px 20px 0px 20px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        // margin: 0px 20px 0px 20px;
+    }
+     .header{
+        margin:0px 20px 20px 20px;
+    }
+    .header-content{
+        .inform{
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+    }
+    .tel{
+        position:absolute;
+        // right: 0;
+        font-size: 16px;
+        font-weight: bold;
+        right: 20px;
+    }
+    .menu{display: none;}
+    .address{
+        display: none;
+    }
+    .ua,.ru, .en, .tel{
+        color: #B3B3BA;
+        text-decoration: none;
+    }
+    .ua, .ru, .en{
+        padding: 5px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .active, .ua:hover, .ru:hover, .en:hover {
+        width: 29px;
+        height: 24px;
+        border-radius: 8px;
+        background: #F0145A; 
+        color: #ffffff;
+    }
+    .active{
+        background: #F0145A; 
+        color: #fff;
+    }
+    .ua:hover, .ru:hover, .en:hover
+    {
+        background: #EDEDF7;
+        color: #B3B3BA;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        .logo-img{
+            height: 31px;
+            width: 208px;
+        }
+        .burger{
+            background-image: url(../images/burger-black.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: transparent;
+            border: none;
+            width: 32px;
+            height: 32px;
+        }
+        .burger:hover{
+            border-radius: 12px;
+            background: #EDEDF7;
+        }
+    }
+    .contacts-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // margin-top: 20px;
+    }
+    .contact-inform{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        margin:0px 20px 40px 20px;
+    }
+    .address-contacts{
+        font-size: 21px;
+        color: #323264;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .address-contacts::after{
+        content: "";
+        display: block;
+        height: 4px;
+        width: 100%;
+        background: #E6E6F0;
+        margin-top: 20px;
+    }
+    .main-contacts{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .tel-contacts{
+        font-size: 21px;
+        color: #46466E;
+    }
+    .mail-contacts{
+        margin-top: 20px;
+        font-size: 21px;
+        color: #24A3FF;
+        text-decoration: none;
+        display: block;
+    }
+    .mail-contacts::after{
+        display: block;
+        content: "";
+        height: 4px;
+        width: 100%;
+        background: #E6E6F0;
+        margin-top: 40px;
+
+    }
+    .link-facebook{
+        margin-top: 20px;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #24A3FF;
+        text-decoration: none;
+        font-weight: bold;
+        // width: 110px;
+        display: block;
+        display: flex;
+        justify-content: center;
+        width: 171px;
+        align-items: center;
+    }
+    .link-facebook::before{
+        display: inline-block;
+        content: "";
+        width: 38px;
+        height: 38px;
+    }
+    .fb-img::before{
+        content: "";
+        background-image: url(../images/facebook-blue.svg);
+        width: 38px;
+        height: 38px;
+        padding-right: 20px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+.contact-form{  
+    width: 100%;
+    background: #F5F5FA;
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: relative;
+}
+// .close{
+//     position: absolute;
+//     right: 15px;
+//     top: 15px;
+//     width: 32px;
+//     height: 32px;
+//     background-color:transparent;
+//     border: none;
+// }
+.name,
+.message,
+.form-email,
+.form-phone,
+.btn{
+    border: none;
+}
+.form-title{
+    width: 100%;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    background: linear-gradient(to right, #F0145A 0%, #EF8080 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'TT-Norms-Bold';
+}
+.name{
+    width: 100%;
+    height: 47px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.message{
+    width: 100%;
+    height: 180px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+    resize: none;
+}
+.form-text{
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA;
+    margin-top: 20px;
+}
+.form-phone{    
+    width: 100%;
+    height: 47px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.form-email{
+    width: 100%;
+    height: 47px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    // position: relative;
+    // left: 25%;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+    padding-left: 10px;
+    font-size: 18px;
+    color: #B3B3BA;
+}
+.map{
+    margin-top: 40px;
+}
+.map::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+.map-img::after{
+    content: "";
+    width: 100%;
+    height: 600px;
+    display: block;
+    background-image: url(../images/map.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+    
+}
+
+@media(min-width:768px){
+    
+}
+
+   
+@media(min-width:1024px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .logo{
+        .logo-img{
+            height: 63px;
+            width: 413px;
+        }
+        .burger{
+            display: none;
+        }
+    }
+    .header{
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        position: relative;
+        // margin: 0px 60px 80px 60px;
+        padding-top: 50px;
+        margin-bottom: 80px;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: row-reverse;
+        order:2;
+        position: relative;
+        min-width: 550px;
+    }
+    .inform{
+        display: flex;
+        flex-direction: row;
+    }
+    .facebook{
+        background-image: url(../images/facebook-grey.svg);
+        width: 24px;
+        height: 24px;
+        position: relative;
+        bottom: 5px;
+    }
+    .lang{
+        margin-right: 20px;
+    }
+    
+    .point::after{
+        content: "";
+        background-image: url(../images/point.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 6px;
+        height: 6px;
+        padding-right: 13px;
+    }
+    .lang::after, .address::after, .tel::after{
+        content: "";
+        position: absolute;
+    }
+    .lang::after{
+        right: 415px;
+        top: 8px;
+    }
+    .address::after{
+        right: 190px;
+        top: 8px;
+    }
+    .tel::after{
+        right: 25px;
+        top: 8px;
+    }
+    .ua,.ru, .en, .tel{
+        color: #B3B3BA;;
+    }
+    .address{
+        display: block;
+        margin-right: 20px;
+        font-size: 16px;
+        font-style: normal;
+        color: #B3B3BA;
+    }
+    .tel{
+        position: static;
+        margin-right: 26px;
+    }
+    .links{
+        font-size: 18px;
+        margin-right: 15px;
+        // font-weight: lighter;
+        color: #24A3FF;
+    }
+    .links:last-child{
+        margin-right: 0;
+    }
+    .menu{
+        display: flex;
+        flex-wrap: nowrap;
+        position: absolute;
+        top: 94px;
+        // left: 600px;
+        right: 0;
+        order: 2;
+    }
+    .menu-active{
+        text-decoration: underline;
+        color: #F0145A;
+    }
+    .links:hover{
+        color: #F0145A;
+    }
+    .active{
+        background: #F0145A; 
+        color: #fff;
+    }
+    .publication-content{
+    }
+    .contacts-content{
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-inform{
+        margin: 0;
+        min-width: 300px;
+        margin-right: 153px;
+    }
+    .main-contacts{
+        margin: 0;
+    }
+    address-contacts{
+        margin-bottom: 40px;
+    }
+    .link-facebook{
+        margin-top: 25px;
+    }
+    .map{
+        position: absolute;
+        bottom: 0;
+    }
+    .map::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 600px;
+    }
+    .map-img::after{
+        content: "";
+        width: 100%;
+        height: 600px;
+        display: block;
+        background-image: url(../images/map.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+}
+@font-face {
+    font-family: "TT-Norms";
+    src: url(../fonts/TTNorms/TTNorms-Regular.otf);
+}
+
+@font-face {
+    font-family: "TT-Norms-Bold";
+    src: url(../fonts/TTNorms/TTNorms-Bold.otf);
+}

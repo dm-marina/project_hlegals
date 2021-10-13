@@ -1,0 +1,97 @@
+@media(min-width:320px){
+    .bg{
+        background: #F5F5FA;
+        border-radius: 12px 12px 0px 0px;
+    }
+    .achivement{
+        display: flex;
+        flex-direction: column;
+    }
+    .achivement-wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .achivement-title{
+        margin: 28px 0px 30px 0px;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #323264;
+    }
+    .achivement-cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        // max-width: 375px;
+    }
+    .images{
+        width: 157px;
+        height: 57px;
+        margin-right: 20px;
+    }
+    .images:nth-child(2){
+        margin-right: 0;
+    }
+    .images:nth-child(3), .images:nth-child(4){
+        display: none;
+    }
+    .achivement-sliders{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .achivement-slider{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        margin-right: 14px;
+        background-color: transparent;
+        border: none;
+        background: rgba(36, 163, 255, .2);
+    }
+    .achivement-slider:hover{
+        background: rgba(36, 163, 255, .6);   
+    }
+    .achivement-slider-active{
+        background: rgb(36, 163, 255);
+    }
+    .achivement-slider:last-child{
+        margin-right: 0;
+    }
+}
+@media(min-width:1024px){
+    .achivement-wrap{
+        align-items: stretch;
+    }
+    .achivement-cards{
+        // justify-content: space-between;
+        width: 100%;
+    }
+    .images{
+        margin-right: 40px;
+        width: 224px;
+        height: 109px;
+    }
+    .images:nth-child(2){
+        margin-right: 40px;
+    }
+    .images:nth-child(1){
+        margin-left: 60px;
+    }
+    .images:nth-child(4){
+        margin-right: 60px;
+    }
+    .images:nth-child(3), .images:nth-child(4){
+        display: block;
+    }
+    .achivement-slider:nth-child(4), .achivement-slider:nth-child(5), .achivement-slider:nth-child(6){
+        display: none;
+    }
+    .achivement-sliders{
+        margin-bottom: 30px;
+    }
+}

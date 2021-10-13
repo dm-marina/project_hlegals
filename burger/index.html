@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <title>Promo</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./styles/normalize.css"> -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <div class="logo-mini">
+        <a href="/"><img src="./logo-mini.svg" alt="logo" width="32px" height="31px"></a>
+    </div> -->
+    <button class="burger" id="menu-open">BTT</button>
+    <div class="mobile-menu" id="menu">
+        <div class="logo-mini">
+            <a href="/"><img src="./logo-mini.svg" alt="logo" width="32px" height="31px"></a>
+        </div>
+        <button class="burger-close" id="menu-close"></button>
+        <div class="link-container">
+            <div class="container">
+                <a href="" class="links">про нас</a>
+            </div>
+            <div class="container">
+                <a href="" class="links">послуги</a>
+            </div>
+            <div class="container">
+                <a href="" class="links">команда</a>
+            </div>
+            <div class="container">
+                <a href="" class="links">публікації</a>
+            </div>
+            <div class="container">
+                <a href="" class="links">контакти</a>
+            </div>
+            <!-- <a href="" class="links">о нас</a>
+            <a href="" class="links">послуги</a>
+            <a href="" class="links">команда</a>
+            <a href="" class="links">публікації</a>
+            <a href="" class="links">контакти</a> -->
+        </div>
+    </div>
+
+    <script>
+        const openButton=document.querySelector('#menu-open');
+        const closeButton=document.querySelector('#menu-close');
+
+        const menu=document.querySelector('#menu');
+        openButton.addEventListener('click', ()=>{
+        menu.classList.add('show-menu');
+        })
+        closeButton.addEventListener('click', ()=>{
+            menu.classList.remove('show-menu');
+            menu.classList.remove('')
+        })
+
+    </script>
+</body>
+</html>

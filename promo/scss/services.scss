@@ -1,0 +1,149 @@
+@media(min-width:320px){
+    .bg-information{
+        background-image: url(../images/bg-services.svg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 0px 0px 12px 12px;
+    }
+    .shadow{
+        background-image: url(../images/shadow.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .services-content{
+        padding-top: 40px;
+        // margin: 0px 20px 45px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+    #customer-oriented, #innovative, #business-oriented, .hidden, .divider {
+        display: none;
+    }
+    .labels{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .label{
+        font-size: 14px;
+        text-transform: uppercase;
+        background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .consistent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .title{
+        font-size: 22px;
+        margin-bottom: 15px;  
+    }
+    .text{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .sliders{
+        display: flex;
+        justify-content: center;
+    }
+    .mini-slider{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        margin-right: 14px;
+        background-color: transparent;
+        border: none;
+        background: rgba(36, 163, 255, .2);
+    }
+    .mini-slider:nth-child(4){
+        margin-right: 0;
+    }
+    .mini-slider:hover{
+        background: rgba(36, 163, 255, .6);   
+    }
+    .mini-slider-active{
+        background: rgb(36, 163, 255);
+    }
+}
+@media(min-width:1024px){
+    .bg-information{
+        // background-image: url(../images/bg-services.svg);
+        background-size:cover;
+        // background-position: center;
+        // background-repeat: no-repeat;
+    }
+    .services-content{
+        padding-top: 80px;
+        margin: 0px 173px 110px 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    .labels{
+        margin-right: 40px;
+        display: block;
+    }
+    .label{
+        // font-family: 'TT-Norms-Bold';
+        flex-direction: row;
+        font-size: 42px;
+        background:  #B3B3BA;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: none;
+    }
+    .label:hover{
+        background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 42px;
+    }
+    .active-label{
+        background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #customer-oriented, #innovative, #business-oriented{
+        display: block;
+    }
+    .explanation{
+        margin-left: 40px;
+    }
+    .divider{
+        display: block;
+        width: 4px;
+        background-color: #E6E6F0;
+        .divider-small{
+            width: 4px;
+            background-color:#F0145A;
+            height: 23%;
+        }
+    }
+
+    .hidden{
+        display: none;
+    }
+    .title{
+        font-size: 32px;
+        margin-top: 51px;
+        margin-bottom: 20px;
+        text-decoration: none;
+    }
+    .text{
+        font-size: 21px;
+    }
+    .explanation-active{
+        display: block;
+    }
+    .sliders{
+        display: none;
+    }
+}

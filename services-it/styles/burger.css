@@ -1,0 +1,93 @@
+@media (min-width: 320px) {
+  /* line 3, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .slider-none, .gradient-none {
+    display: none;
+  }
+  /* line 6, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+  }
+  /* line 15, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .mobile-menu .logo-mini {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  /* line 20, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .show-menu {
+    display: block;
+  }
+  /* line 23, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .link-container {
+    margin-top: 15px;
+  }
+  /* line 26, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    background: #F5F5FA;
+    margin-bottom: 1px;
+  }
+  /* line 33, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .container-active {
+    background: #EDEDF7;
+  }
+  /* line 35, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .container-active .links:hover, .container-active .links:active {
+    color: #F0145A;
+  }
+  /* line 39, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .links {
+    text-decoration: none;
+    color: #24A3FF;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* line 49, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .burger-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    margin-left: 338px;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+  }
+  /* line 59, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .burger-close::before,
+  .burger-close::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: 7px;
+    width: 18px;
+    height: 2px;
+    background-color: #EC6F5D;
+  }
+  /* line 69, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .burger-close::before {
+    content: "";
+    transform: rotate(45deg);
+  }
+  /* line 73, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .burger-close::after {
+    content: "";
+    transform: rotate(-45deg);
+  }
+  /* line 77, ../../Documents/hlegals/services-it/scss/burger.scss */
+  .burger-close:hover, .burger-close-active {
+    background: #EDEDF7;
+    border-radius: 12px;
+  }
+}
+
+/*# sourceMappingURL=burger.css.map */

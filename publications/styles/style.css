@@ -1,0 +1,892 @@
+@media (min-width: 320px) {
+  /* line 3, ../../Documents/hlegals/publications/scss/burger.scss */
+  .slider-none, .gradient-none {
+    display: none;
+  }
+  /* line 6, ../../Documents/hlegals/publications/scss/burger.scss */
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+  }
+  /* line 14, ../../Documents/hlegals/publications/scss/burger.scss */
+  .mobile-menu .logo-mini {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  /* line 19, ../../Documents/hlegals/publications/scss/burger.scss */
+  .show-menu {
+    display: block;
+  }
+  /* line 22, ../../Documents/hlegals/publications/scss/burger.scss */
+  .link-container {
+    margin-top: 15px;
+  }
+  /* line 25, ../../Documents/hlegals/publications/scss/burger.scss */
+  .container {
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    background: #F5F5FA;
+    margin-bottom: 1px;
+  }
+  /* line 32, ../../Documents/hlegals/publications/scss/burger.scss */
+  .container-active {
+    background: #EDEDF7;
+  }
+  /* line 34, ../../Documents/hlegals/publications/scss/burger.scss */
+  .container-active .links:hover, .container-active .links:active {
+    color: #F0145A;
+  }
+  /* line 38, ../../Documents/hlegals/publications/scss/burger.scss */
+  .links {
+    text-decoration: none;
+    color: #24A3FF;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* line 45, ../../Documents/hlegals/publications/scss/burger.scss */
+  .links:hover, .links:active {
+    color: #F0145A;
+  }
+  /* line 48, ../../Documents/hlegals/publications/scss/burger.scss */
+  .burger-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    margin-left: 338px;
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+  }
+  /* line 58, ../../Documents/hlegals/publications/scss/burger.scss */
+  .burger-close::before,
+  .burger-close::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: 7px;
+    width: 18px;
+    height: 2px;
+    background-color: #EC6F5D;
+  }
+  /* line 68, ../../Documents/hlegals/publications/scss/burger.scss */
+  .burger-close::before {
+    content: "";
+    transform: rotate(45deg);
+  }
+  /* line 72, ../../Documents/hlegals/publications/scss/burger.scss */
+  .burger-close::after {
+    content: "";
+    transform: rotate(-45deg);
+  }
+  /* line 76, ../../Documents/hlegals/publications/scss/burger.scss */
+  .burger-close:hover, .burger-close-active {
+    background: #EDEDF7;
+    border-radius: 12px;
+  }
+}
+
+@media (min-width: 320px) {
+  /* line 2, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer {
+    background: #F5F5FA;
+    width: 100%;
+    position: relative;
+  }
+  /* line 9, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 23px;
+    padding-bottom: 118px;
+    position: relative;
+  }
+  /* line 19, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 28, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  /* line 34, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-footer, .tel-footer {
+    font-size: 16px;
+    font-style: normal;
+    color: #323264;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* line 41, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-footer {
+    margin-bottom: 10px;
+  }
+  /* line 44, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-link {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #24A3FF;
+    text-decoration: none;
+    text-align: center;
+  }
+  /* line 52, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-link:hover, .mail:hover {
+    color: #F0145A;
+  }
+  /* line 56, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-inform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  /* line 62, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-facebook {
+    background-image: url(../images/facebook-blue.svg);
+    width: 38px;
+    height: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    position: relative;
+    left: 48%;
+  }
+  /* line 72, ../../Documents/hlegals/publications/scss/footer.scss */
+  .tel-footer {
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* line 77, ../../Documents/hlegals/publications/scss/footer.scss */
+  .mail {
+    text-decoration: none;
+    font-size: 16px;
+    color: #24A3FF;
+    text-align: center;
+  }
+  /* line 83, ../../Documents/hlegals/publications/scss/footer.scss */
+  .hlegals-about {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20px 0px 20px;
+  }
+  /* line 88, ../../Documents/hlegals/publications/scss/footer.scss */
+  .hlegals-about-text {
+    font-size: 16px;
+    color: #B3B3BA;
+    text-align: center;
+  }
+  /* line 93, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    margin: 0px 20px 30px 20px;
+    display: block;
+    width: 95%;
+    height: 4px;
+    background: #E6E6F0;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 105, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer {
+    position: relative;
+  }
+  /* line 108, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-contacts {
+    margin: 0px 0px 0px 100px;
+    justify-content: flex-start;
+  }
+  /* line 112, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 0;
+  }
+  /* line 118, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-container {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  /* line 123, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-footer {
+    text-align: start;
+    margin-right: 47px;
+  }
+  /* line 127, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-link {
+    vertical-align: bottom;
+    margin-top: 2px;
+  }
+  /* line 131, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-inform {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+  /* line 135, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-facebook {
+    position: relative;
+    margin-right: 12px;
+    left: -12px;
+    bottom: 10px;
+    margin-bottom: 0;
+  }
+  /* line 142, ../../Documents/hlegals/publications/scss/footer.scss */
+  .tel-footer {
+    margin-right: 26px;
+    margin-bottom: 0;
+  }
+  /* line 146, ../../Documents/hlegals/publications/scss/footer.scss */
+  .mail {
+    margin-bottom: 0;
+  }
+  /* line 149, ../../Documents/hlegals/publications/scss/footer.scss */
+  .point-gray::after {
+    content: "";
+    background-image: url(../images/point-gray.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6px;
+    height: 6px;
+    padding-right: 10px;
+  }
+  /* line 158, ../../Documents/hlegals/publications/scss/footer.scss */
+  .address-footer::after {
+    content: "";
+    position: relative;
+    left: 33px;
+  }
+  /* line 163, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-facebook::after {
+    content: "";
+    position: relative;
+    left: 48px;
+    top: 10px;
+  }
+  /* line 169, ../../Documents/hlegals/publications/scss/footer.scss */
+  .tel-footer::after {
+    content: "";
+    position: relative;
+    left: 15px;
+  }
+  /* line 175, ../../Documents/hlegals/publications/scss/footer.scss */
+  .hlegals-about {
+    margin: 20px 60px 0px 0px;
+  }
+  /* line 178, ../../Documents/hlegals/publications/scss/footer.scss */
+  .footer-content::before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    margin: 0px 40px 30px 40px;
+    display: block;
+    width: 90%;
+    height: 4px;
+    background: #E6E6F0;
+  }
+}
+
+/* line 3, ../../Documents/hlegals/publications/scss/style.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../../Documents/hlegals/publications/scss/style.scss */
+body {
+  color: #000000;
+  font-family: "TT-Norms";
+}
+
+@media (min-width: 320px) {
+  /* line 13, ../../Documents/hlegals/publications/scss/style.scss */
+  .wrapper {
+    min-width: 320px;
+    padding-top: 20px;
+    margin: 0px 20px 0px 20px;
+  }
+  /* line 18, ../../Documents/hlegals/publications/scss/style.scss */
+  .publications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+  /* line 24, ../../Documents/hlegals/publications/scss/style.scss */
+  .header {
+    margin-bottom: 20px;
+  }
+  /* line 28, ../../Documents/hlegals/publications/scss/style.scss */
+  .header-content .inform {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  /* line 35, ../../Documents/hlegals/publications/scss/style.scss */
+  .tel {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    right: 20px;
+  }
+  /* line 42, ../../Documents/hlegals/publications/scss/style.scss */
+  .menu {
+    display: none;
+  }
+  /* line 43, ../../Documents/hlegals/publications/scss/style.scss */
+  .address {
+    display: none;
+  }
+  /* line 46, ../../Documents/hlegals/publications/scss/style.scss */
+  .ua, .ru, .en, .tel {
+    color: #B3B3BA;
+    text-decoration: none;
+  }
+  /* line 50, ../../Documents/hlegals/publications/scss/style.scss */
+  .ua, .ru, .en {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  /* line 56, ../../Documents/hlegals/publications/scss/style.scss */
+  .active, .ua:hover, .ru:hover, .en:hover {
+    width: 29px;
+    height: 24px;
+    border-radius: 8px;
+    background: #F0145A;
+    color: #ffffff;
+  }
+  /* line 63, ../../Documents/hlegals/publications/scss/style.scss */
+  .active {
+    background: #F0145A;
+    color: #fff;
+  }
+  /* line 67, ../../Documents/hlegals/publications/scss/style.scss */
+  .ua:hover, .ru:hover, .en:hover {
+    background: #EDEDF7;
+    color: #B3B3BA;
+  }
+  /* line 72, ../../Documents/hlegals/publications/scss/style.scss */
+  .logo {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 75, ../../Documents/hlegals/publications/scss/style.scss */
+  .logo .logo-img {
+    height: 31px;
+    width: 208px;
+  }
+  /* line 79, ../../Documents/hlegals/publications/scss/style.scss */
+  .logo .burger {
+    background-image: url(../images/burger-black.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 32px;
+    height: 32px;
+  }
+  /* line 88, ../../Documents/hlegals/publications/scss/style.scss */
+  .logo .burger:hover {
+    border-radius: 12px;
+    background: #EDEDF7;
+  }
+  /* line 93, ../../Documents/hlegals/publications/scss/style.scss */
+  .publications-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  /* line 99, ../../Documents/hlegals/publications/scss/style.scss */
+  .btn-publications {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    background: #E6E6F0;
+    border-radius: 12px;
+  }
+  /* line 109, ../../Documents/hlegals/publications/scss/style.scss */
+  .btn-p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #E6E6F0;
+    width: 50%;
+    font-size: 18px;
+    color: #323264;
+    font-weight: bold;
+  }
+  /* line 121, ../../Documents/hlegals/publications/scss/style.scss */
+  .checkbox-active {
+    background: #FFFFFF;
+    border-radius: 10px;
+    height: 100%;
+    border: 2px solid #E6E6F0;
+  }
+  /* line 129, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication {
+    margin-bottom: 23px;
+    background: #F5F5FA;
+  }
+  /* line 133, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -20px;
+    margin-right: -20px;
+    background: #F5F5FA;
+    padding-top: 20px;
+  }
+  /* line 143, ../../Documents/hlegals/publications/scss/style.scss */
+  .publicaton-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px 0px 20px 20px;
+    position: relative;
+  }
+  /* line 150, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #24A3FF;
+    text-decoration: none;
+  }
+  /* line 157, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-link::after, .publication-vector::after, .publication-img::before, .equity::before,
+  .milenial::before, .publication-card-title::before, .publication-card-date::after, .adaptive-site::before, .gdpr::before, .child-education::before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  /* line 165, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-link::after {
+    position: absolute;
+    top: 3px;
+    left: 83px;
+    width: 12px;
+    height: 12px;
+  }
+  /* line 172, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-vector::after {
+    background-image: url(../images/blue-vector.svg);
+    width: 5px;
+    height: 9px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* line 179, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-title {
+    font-family: "TT-Norms-Bold";
+    font-size: 32px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* line 186, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* line 193, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 200, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-cards:nth-child(1) .publication-container:nth-child(1) .publication-card:nth-child(1) {
+    order: 1;
+  }
+  /* line 203, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-cards:nth-child(1) .publication-container:nth-child(1) .publication-card:nth-child(2) {
+    order: 3;
+  }
+  /* line 210, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-container:nth-child(2) .publication-card:nth-child(1) {
+    order: 2;
+    margin-bottom: 20px;
+  }
+  /* line 214, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-container:nth-child(2) .publication-card:nth-child(2) {
+    order: 4;
+  }
+  /* line 219, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-container:nth-child(3) .publication-card:nth-child(1) {
+    order: 6;
+  }
+  /* line 222, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-container:nth-child(3) .publication-card:nth-child(2) {
+    order: 5;
+  }
+  /* line 226, ../../Documents/hlegals/publications/scss/style.scss */
+  .hide-before::before {
+    display: none;
+  }
+  /* line 230, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-cards:nth-child(2) {
+    display: none;
+  }
+  /* line 233, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 0px 20px 20px 20px;
+  }
+  /* line 242, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-container:nth-child(2) .publication-card:nth-child(1) {
+    margin-bottom: 0;
+  }
+  /* line 246, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-card-title, .public-card-title {
+    font-size: 18px;
+    color: #24A3FF;
+    margin: 20px 20px 10px 20px;
+  }
+  /* line 251, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-card-date {
+    font-size: 12px;
+    color: #B3B3BA;
+    font-weight: bold;
+    margin: 0px 20px 20px 20px;
+  }
+  /* line 257, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-card-text {
+    display: none;
+  }
+  /* line 260, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-card-title::before {
+    min-width: 335px;
+    min-height: 188px;
+    max-height: 233px;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 20px;
+  }
+  /* line 267, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-img::before {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    background-size: cover;
+    left: -20px;
+    margin-top: -20px;
+    margin-right: -40px;
+    min-width: 268px;
+    height: 188px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  /* line 279, ../../Documents/hlegals/publications/scss/style.scss */
+  .equity::before {
+    background-image: url(../images/equity.svg);
+    background-position: top;
+  }
+  /* line 283, ../../Documents/hlegals/publications/scss/style.scss */
+  .milenial::before {
+    background-image: url(../images/milenial.png);
+    background-position: top;
+  }
+  /* line 287, ../../Documents/hlegals/publications/scss/style.scss */
+  .adaptive-site::before {
+    background-image: url(../images/adaptive-site.svg);
+  }
+  /* line 290, ../../Documents/hlegals/publications/scss/style.scss */
+  .gdpr::before {
+    background-image: url(../images/gdpr.svg);
+  }
+  /* line 293, ../../Documents/hlegals/publications/scss/style.scss */
+  .child-education::before {
+    background-image: url(../images/child-education.svg);
+  }
+  /* line 296, ../../Documents/hlegals/publications/scss/style.scss */
+  .more-publication {
+    width: 250px;
+    height: 50px;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+  }
+  /* line 309, ../../Documents/hlegals/publications/scss/style.scss */
+  .btn-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 323, ../../Documents/hlegals/publications/scss/style.scss */
+  .publicaton-heading {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 40px 59px;
+  }
+  /* line 328, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+  }
+  /* line 337, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  /* line 342, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-card {
+    margin: 20px 20px 0px 0px;
+    justify-content: center;
+  }
+  /* line 346, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-cards {
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* line 353, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-card-text {
+    display: block;
+    font-size: 16px;
+    color: #000000;
+    margin: 0px 20px 20px 20px;
+  }
+  /* line 359, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-img::before {
+    display: flex;
+    align-items: stretch;
+    position: relative;
+    background-size: cover;
+    left: -20px;
+    margin-top: -20px;
+    margin-right: -40px;
+    min-width: 100px;
+    height: 188px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  /* line 371, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-card-date::after {
+    content: "";
+    margin: 20px 20px 0px 0px;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #E6E6F0;
+  }
+  /* line 379, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-cards:nth-child(2) {
+    display: flex;
+  }
+  /* line 382, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-link::after, .publication-vector::after, .publication-img::before, .equity::before,
+  .milenial::before, .publication-card-title::before, .publication-card-date::after, .adaptive-site::before, .gdpr::before, .child-education::before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+  /* line 390, ../../Documents/hlegals/publications/scss/style.scss */
+  .btn-center {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 397, ../../Documents/hlegals/publications/scss/style.scss */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  /* line 414, ../../Documents/hlegals/publications/scss/style.scss */
+  .logo .logo-img {
+    height: 63px;
+    width: 413px;
+  }
+  /* line 418, ../../Documents/hlegals/publications/scss/style.scss */
+  .logo .burger {
+    display: none;
+  }
+  /* line 422, ../../Documents/hlegals/publications/scss/style.scss */
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 80px;
+  }
+  /* line 432, ../../Documents/hlegals/publications/scss/style.scss */
+  .header-content {
+    display: flex;
+    flex-direction: row-reverse;
+    order: 2;
+    position: relative;
+    min-width: 550px;
+  }
+  /* line 439, ../../Documents/hlegals/publications/scss/style.scss */
+  .inform {
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 443, ../../Documents/hlegals/publications/scss/style.scss */
+  .facebook {
+    background-image: url(../images/facebook-grey.svg);
+    width: 24px;
+    height: 24px;
+    position: relative;
+    bottom: 5px;
+  }
+  /* line 450, ../../Documents/hlegals/publications/scss/style.scss */
+  .lang {
+    margin-right: 20px;
+  }
+  /* line 454, ../../Documents/hlegals/publications/scss/style.scss */
+  .point::after {
+    content: "";
+    background-image: url(../images/point.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6px;
+    height: 6px;
+    padding-right: 13px;
+  }
+  /* line 463, ../../Documents/hlegals/publications/scss/style.scss */
+  .lang::after, .address::after, .tel::after {
+    content: "";
+    position: absolute;
+  }
+  /* line 467, ../../Documents/hlegals/publications/scss/style.scss */
+  .lang::after {
+    right: 415px;
+    top: 8px;
+  }
+  /* line 471, ../../Documents/hlegals/publications/scss/style.scss */
+  .address::after {
+    right: 190px;
+    top: 8px;
+  }
+  /* line 475, ../../Documents/hlegals/publications/scss/style.scss */
+  .tel::after {
+    right: 25px;
+    top: 8px;
+  }
+  /* line 479, ../../Documents/hlegals/publications/scss/style.scss */
+  .ua, .ru, .en, .tel {
+    color: #B3B3BA;
+  }
+  /* line 482, ../../Documents/hlegals/publications/scss/style.scss */
+  .address {
+    display: block;
+    margin-right: 20px;
+    font-size: 16px;
+    font-style: normal;
+    color: #B3B3BA;
+  }
+  /* line 489, ../../Documents/hlegals/publications/scss/style.scss */
+  .tel {
+    position: static;
+    margin-right: 26px;
+  }
+  /* line 493, ../../Documents/hlegals/publications/scss/style.scss */
+  .links {
+    font-size: 18px;
+    margin-right: 15px;
+    color: #24A3FF;
+  }
+  /* line 499, ../../Documents/hlegals/publications/scss/style.scss */
+  .links:last-child {
+    margin-right: 0;
+  }
+  /* line 502, ../../Documents/hlegals/publications/scss/style.scss */
+  .menu {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 94px;
+    right: 0;
+    order: 2;
+  }
+  /* line 511, ../../Documents/hlegals/publications/scss/style.scss */
+  .menu-active {
+    text-decoration: underline;
+    color: #F0145A;
+  }
+  /* line 515, ../../Documents/hlegals/publications/scss/style.scss */
+  .links:hover {
+    color: #F0145A;
+  }
+  /* line 518, ../../Documents/hlegals/publications/scss/style.scss */
+  .active {
+    background: #F0145A;
+    color: #fff;
+  }
+  /* line 522, ../../Documents/hlegals/publications/scss/style.scss */
+  .publication-content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@font-face {
+  font-family: "TT-Norms";
+  src: url(../fonts/TTNorms/TTNorms-Regular.otf);
+}
+
+@font-face {
+  font-family: "TT-Norms-Bold";
+  src: url(../fonts/TTNorms/TTNorms-Bold.otf);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,175 @@
+@media (min-width: 320px) {
+  /* line 2, ../../Documents/hlegals/promo/scss/services.scss */
+  .bg-information {
+    background-image: url(../images/bg-services.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 12px 12px;
+  }
+  /* line 9, ../../Documents/hlegals/promo/scss/services.scss */
+  .shadow {
+    background-image: url(../images/shadow.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* line 15, ../../Documents/hlegals/promo/scss/services.scss */
+  .services-content {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+  /* line 23, ../../Documents/hlegals/promo/scss/services.scss */
+  #customer-oriented, #innovative, #business-oriented, .hidden, .divider {
+    display: none;
+  }
+  /* line 26, ../../Documents/hlegals/promo/scss/services.scss */
+  .labels {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  /* line 31, ../../Documents/hlegals/promo/scss/services.scss */
+  .label {
+    font-size: 14px;
+    text-transform: uppercase;
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* line 38, ../../Documents/hlegals/promo/scss/services.scss */
+  .consistent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* line 43, ../../Documents/hlegals/promo/scss/services.scss */
+  .title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  /* line 47, ../../Documents/hlegals/promo/scss/services.scss */
+  .text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  /* line 51, ../../Documents/hlegals/promo/scss/services.scss */
+  .sliders {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 55, ../../Documents/hlegals/promo/scss/services.scss */
+  .mini-slider {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 14px;
+    background-color: transparent;
+    border: none;
+    background: rgba(36, 163, 255, 0.2);
+  }
+  /* line 64, ../../Documents/hlegals/promo/scss/services.scss */
+  .mini-slider:nth-child(4) {
+    margin-right: 0;
+  }
+  /* line 67, ../../Documents/hlegals/promo/scss/services.scss */
+  .mini-slider:hover {
+    background: rgba(36, 163, 255, 0.6);
+  }
+  /* line 70, ../../Documents/hlegals/promo/scss/services.scss */
+  .mini-slider-active {
+    background: #24a3ff;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* line 75, ../../Documents/hlegals/promo/scss/services.scss */
+  .bg-information {
+    background-size: cover;
+  }
+  /* line 81, ../../Documents/hlegals/promo/scss/services.scss */
+  .services-content {
+    padding-top: 80px;
+    margin: 0px 173px 110px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  /* line 88, ../../Documents/hlegals/promo/scss/services.scss */
+  .labels {
+    margin-right: 40px;
+    display: block;
+  }
+  /* line 92, ../../Documents/hlegals/promo/scss/services.scss */
+  .label {
+    flex-direction: row;
+    font-size: 42px;
+    background: #B3B3BA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: none;
+  }
+  /* line 103, ../../Documents/hlegals/promo/scss/services.scss */
+  .label:hover {
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 42px;
+  }
+  /* line 109, ../../Documents/hlegals/promo/scss/services.scss */
+  .active-label {
+    background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* line 114, ../../Documents/hlegals/promo/scss/services.scss */
+  #customer-oriented, #innovative, #business-oriented {
+    display: block;
+  }
+  /* line 117, ../../Documents/hlegals/promo/scss/services.scss */
+  .explanation {
+    margin-left: 40px;
+  }
+  /* line 120, ../../Documents/hlegals/promo/scss/services.scss */
+  .divider {
+    display: block;
+    width: 4px;
+    background-color: #E6E6F0;
+  }
+  /* line 124, ../../Documents/hlegals/promo/scss/services.scss */
+  .divider .divider-small {
+    width: 4px;
+    background-color: #F0145A;
+    height: 23%;
+  }
+  /* line 131, ../../Documents/hlegals/promo/scss/services.scss */
+  .hidden {
+    display: none;
+  }
+  /* line 134, ../../Documents/hlegals/promo/scss/services.scss */
+  .title {
+    font-size: 32px;
+    margin-top: 51px;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  /* line 140, ../../Documents/hlegals/promo/scss/services.scss */
+  .text {
+    font-size: 21px;
+  }
+  /* line 143, ../../Documents/hlegals/promo/scss/services.scss */
+  .explanation-active {
+    display: block;
+  }
+  /* line 146, ../../Documents/hlegals/promo/scss/services.scss */
+  .sliders {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=services.css.map */

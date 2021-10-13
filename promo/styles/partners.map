@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "partners.css",
+	"sources": [
+		"../scss/partners.scss"
+	],
+	"sourcesContent": [
+		"@media(min-width:320px){\r\n    .partners{\r\n        display: flex;\r\n        justify-content: center;\r\n        flex-direction: column;\r\n    }\r\n    .trust-partners{\r\n        display: flex;\r\n        justify-content: center;\r\n        font-size: 14px;\r\n        text-transform: uppercase;\r\n        color: #323264;\r\n        margin-bottom: 30px;\r\n    }\r\n    .firms{\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n    }\r\n    .firm{\r\n        width: 50%;\r\n    }\r\n}\r\n@media(min-width:1024px){\r\n    .firm{\r\n        width: 25%;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,MAAM,EAAC,SAAS,EAAE,KAAK;;EACnB,AAAA,SAAS,CAAA;IACL,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,MAAM;IACvB,cAAc,EAAE,MAAM;GACzB;;EACD,AAAA,eAAe,CAAA;IACX,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,MAAM;IACvB,SAAS,EAAE,IAAI;IACf,cAAc,EAAE,SAAS;IACzB,KAAK,EAAE,OAAO;IACd,aAAa,EAAE,IAAI;GACtB;;EACD,AAAA,MAAM,CAAA;IACF,OAAO,EAAE,IAAI;IACb,SAAS,EAAE,IAAI;GAClB;;EACD,AAAA,KAAK,CAAA;IACD,KAAK,EAAE,GAAG;GACb;;;AAEL,MAAM,EAAC,SAAS,EAAE,MAAM;;EACpB,AAAA,KAAK,CAAA;IACD,KAAK,EAAE,GAAG;GACb"
+}
